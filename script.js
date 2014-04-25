@@ -1,0 +1,6 @@
+(function(){
+  //call custom functions here...
+  
+}());
+
+//create new functions below...
