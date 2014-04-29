@@ -1,13 +1,26 @@
 <html>
-  <head>
+<head>
     <script src="script.js"></script>
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
     <h1>JavaScript Beginner 01</h1>
     <span>Instructions:</span>
     <ol>
-      <li>Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript. </li>
-      <li>Log the result in the console.</li>
+        <li>Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript. </li>
+        <li>Log the result in the console.</li>
     </ol>
-  </body>
+    <div id="answer-container">
+        <h2>Solution</h2>
+        <div>
+            <form action="" onsubmit="checkMaxValue(); return false;">
+                <p>Enter a number.</p>
+                <label for="value-one">Value one: </label><input title="Numbers & decimals only!" type="text" id="value-one" pattern="(-?)[0-9]+([\.|,][0-9]+)?" /><br/>
+                <label for="value-two">Value two: </label><input title="Numbers & decimals only!" type="text" id="value-two" pattern="(-?)[0-9]+([\.|,][0-9]+)?" /><br />
+                <button type="submit" id="value-compare-button">Which is the max?</button>
+                <p id="result-message"></p>
+            </form>
+        </div>
+    </div>
+</body>
 </html>

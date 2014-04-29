@@ -1,0 +1,19 @@
+﻿body {
+}
+
+#answer-container {
+    width:80%;
+    border-radius:0.5em;
+    margin:2em auto;
+    padding:2em;
+    border:0.5em #000 solid;
+    box-shadow: 0.5em 0.5em 0.5em #000 ;
+}
+
+.correct-answer {
+    border: green 1px solid;
+}
+
+.wrong-answer {
+    border: red 1px solid;
+}
